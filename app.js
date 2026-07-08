@@ -1,5 +1,6 @@
-﻿const API_BASE = localStorage.getItem("knotboard_api_base") || "http://localhost:8080/api";
-
+const API_BASE =
+  localStorage.getItem("knotboard_api_base") ||
+  "https://knotboard-backend.onrender.com/api";
 const state = {
   auth: readAuth(),
   boards: [],
